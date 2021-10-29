@@ -7,7 +7,7 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 
-  background: url(images/nlwheat-mobile.png) no-repeat center/cover;
+  background: url(images/nlwheat-mobile.png) repeat center/cover;
   background-color: #121214;
   background-repeat: no-repeat;
 }
@@ -131,7 +131,6 @@ ul {
     display: grid;
     place-items: center;
   }
-
   .atropos-rotate {
     width: 358px;
     height: 540px;
@@ -142,6 +141,7 @@ ul {
   main {
     width: 22.375rem;
     height: 33.75rem;
+    margin-left: 400px;
     border-radius: 1rem;
 
     transform-style: preserve-3d;
@@ -152,7 +152,7 @@ ul {
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.411);
 
-    margin-top: -280px;
+    margin-top: -200px;
   }
 
   .container {
@@ -164,13 +164,7 @@ ul {
   }
 
   .faixa {
-    position: absolute;
-    z-index: 1;
-  }
-
-  .faixa {
-    margin-top: -100px;
-    position: relative;
+    display: none;
   }
 
   .container .avatar {
